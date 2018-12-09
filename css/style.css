@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+li{
+  list-style: none;
+}
+.cf:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+html{}
+body{}
+#wrap{}
+header{
+  position: relative;
+}
+header div.slideBtn{
+  position: absolute;
+  top:0;
+  left:3%;
+  width:4%;
+}
+header div.slideBtn ul{}
+header div.slideBtn ul li{
+  width:100%;
+  height: 6px;
+  background: #000;
+  margin: 8px 0;
+}
+header div.slideBtn ul li:first-child{
+  margin-top: 0;
+}
+header div.slideBtn ul li:last-child{
+  margin-bottom: 0;
+}
+header h1{
+  width:100%;
+  text-align: center;
+  margin: 3% 0;
+}
+header div.login{
+  position: absolute;
+  width:4%;
+  height:auto;
+  padding-bottom: 4%;
+  border-radius: 50%;
+  background: #000;
+  right:3%;
+  top:0;
+}
+header div.lnb{
+  width:100%;
+}
+header div.lnb ul{
+  width:100%;
+}
+header div.lnb ul li{
+  float: left;
+  width:25%;
+  text-align: center;
+  padding: 2% 0;
+  font-size:1.4em;
+
+}
+
+section{
+  width:100%;
+}
+section div.slider{
+  width:100%;
+  position: relative;
+}
+section div.slider div.slider_01{
+  width:100%;
+}
+
+section .slick-slide img{
+  width:200%;
+}
+section .slick-arrow{
+  position: absolute;
+  top:50%;
+}
+section .slick-arrow.slick-prev{
+  z-index: 1;
+  left:3%;
+}
+section .slick-arrow.slick-next{
+  right:3%;
+}
+section .slick-track{
+
+}
+
+section div.banner{
+  margin-top: 5%;
+}
+section div.banner div{
+  margin: 1% 0;
+}
+section div.banner img{
+  width:100%;
+}
+section div.accordion{}
+section div.accordion div{}
+section div.accordion div p{}
+section div.accordion div p:nth-child(2){}
+
+section div.whySky{}
+section div.whySky div.whySkyBox{}
+section div.whySky div.whySkyBox p{}
+section div.whySky div.whySkyBox p:nth-child(2){}
+
+section div.whySky div.whySky_01{}
+section div.whySky div.whySky_01 img{}
+
+section div.whySky div.whySky_02{}
+
+section div.whySky div.whySky_03{}
+
+section div.whySky div.whySky_04{}
+
+section div.tabMenu{}
+
+footer{}
