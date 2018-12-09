@@ -12,6 +12,16 @@
       $('.slider').slick({
 
       });
+
+      $('ul.tabs li').click(function(){
+        var tab_id = $(this).attr('data-tab');
+
+        $('ul.tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+      });
     });
 
     </script>
@@ -39,8 +49,8 @@
       </header>
       <section>
         <div class="slider">
-          <div><img src="images/slider_01.jpg" alt="배너1"/></div>
-          <div><img src="images/slider_02.jpg" alt="배너2"/></div>
+          <div><img src="images/slider_01.png" alt="배너1"/></div>
+          <div><img src="images/slider_02.png" alt="배너2"/></div>
         </div>
         <div class="banner">
           <div class=""><a href="#"><img src="images/1.png" alt="약대"/></a></div>
@@ -52,8 +62,16 @@
             <p>치바 과학 대학</p>
             <p>2019년 4월 14일</p>
           </div>
+          <div>
+            <p>치바 과학 대학</p>
+            <p>2019년 4월 14일</p>
+          </div>
+          <div>
+            <p>치바 과학 대학</p>
+            <p>2019년 4월 14일</p>
+          </div>
         </div>
-        <div class="whySky">
+        <div class="whySky cf">
           <div class="whySkyBox whySky_01">
             <div class="Number">1</div>
             <p>ALL Care System</p>
@@ -76,11 +94,23 @@
           </div>
         </div>
         <div class="tabMenu">
+          <ul class="tabs cf">
+            <li class="tab-link current" data-tab="tab-1">신문보도자료</li>
+            <li class="tab-link" data-tab="tab-2">자료실</li>
+          </ul>
+          <div id="tab-1" class="tab-content current">
 
+          </div>
+          <div id="tab-2" class="tab-content">
+
+          </div>
         </div>
       </section>
       <footer>
-
+        <ul class="cf">
+          <li>카톡상담</li>
+          <li>전화상담</li>
+        </ul>
       </footer>
     </div>
   </body>

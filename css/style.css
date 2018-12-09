@@ -24,16 +24,17 @@ header{
 }
 header div.slideBtn{
   position: absolute;
-  top:0;
+  top:21%;
   left:3%;
-  width:4%;
+  width:30px;
 }
 header div.slideBtn ul{}
 header div.slideBtn ul li{
   width:100%;
-  height: 6px;
+  height: 4px;
   background: #000;
-  margin: 8px 0;
+  margin: 6px 0;
+  border-radius: 2px;
 }
 header div.slideBtn ul li:first-child{
   margin-top: 0;
@@ -44,17 +45,19 @@ header div.slideBtn ul li:last-child{
 header h1{
   width:100%;
   text-align: center;
-  margin: 3% 0;
+  padding: 3% 0;
+}
+header h1 img{
+  width:50%;
 }
 header div.login{
   position: absolute;
-  width:4%;
-  height:auto;
-  padding-bottom: 4%;
+  width:30px;
+  height:30px;
   border-radius: 50%;
   background: #000;
   right:3%;
-  top:0;
+  top:21%;
 }
 header div.lnb{
   width:100%;
@@ -67,23 +70,20 @@ header div.lnb ul li{
   width:25%;
   text-align: center;
   padding: 2% 0;
-  font-size:1.4em;
-
+  font-size:1em;
+  cursor: pointer;
+  background: #5c6068;
+  color:#fff;
 }
 
 section{
   width:100%;
 }
 section div.slider{
-  width:100%;
   position: relative;
 }
-section div.slider div.slider_01{
-  width:100%;
-}
-
 section .slick-slide img{
-  width:200%;
+  width:100%;
 }
 section .slick-arrow{
   position: absolute;
@@ -96,9 +96,6 @@ section .slick-arrow.slick-prev{
 section .slick-arrow.slick-next{
   right:3%;
 }
-section .slick-track{
-
-}
 
 section div.banner{
   margin-top: 5%;
@@ -109,15 +106,50 @@ section div.banner div{
 section div.banner img{
   width:100%;
 }
-section div.accordion{}
-section div.accordion div{}
-section div.accordion div p{}
+section div.accordion{
+  width:100%;
+  text-align: center;
+  margin-top: 3%;
+}
+section div.accordion div{
+  padding: 2% 0;
+  background: #ccc;
+}
+section div.accordion div p{
+
+}
 section div.accordion div p:nth-child(2){}
 
-section div.whySky{}
-section div.whySky div.whySkyBox{}
-section div.whySky div.whySkyBox p{}
-section div.whySky div.whySkyBox p:nth-child(2){}
+section div.whySky{
+  width:100%;
+  margin-top: 3%;
+  text-align: center;
+}
+section div.whySky div.whySkyBox{
+  width:calc(50% - 0.5%);
+  height: 200px;
+  float: left;
+  margin-bottom: 1%;
+  background: #ebebeb;
+}
+section div.whySky div.whySkyBox div.Number{
+  width:40px;
+  height:40px;
+  line-height: 40px;
+  margin: 10% auto;
+  border-radius: 50%;
+  background: #84ccc9;
+  color:#fff;
+}
+section div.whySky div.whySkyBox:nth-child(2n-1){
+  margin-right: 1%;
+}
+section div.whySky div.whySkyBox p{
+  font-size:1em;
+}
+section div.whySky div.whySkyBox p:nth-child(3){
+  font-size:0.825em;
+}
 
 section div.whySky div.whySky_01{}
 section div.whySky div.whySky_01 img{}
@@ -128,6 +160,51 @@ section div.whySky div.whySky_03{}
 
 section div.whySky div.whySky_04{}
 
-section div.tabMenu{}
+section div.tabMenu{
+  margin-top: 3%;
+}
+section div.tabMenu ul.tabs{
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+section div.tabMenu ul.tabs li{
+    background: none;
+    color: #222;
+    display: inline-block;
+    width:50%;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+  }
 
-footer{}
+section div.tabMenu ul.tabs li.current{
+    background: #ededed;
+    color: #222;
+  }
+
+section div.tabMenu .tab-content{
+    display: none;
+    background: #ededed;
+    padding: 15px;
+  }
+
+section div.tabMenu .tab-content.current{
+    display: inherit;
+  }
+footer{
+  width:100%;
+  position: fixed;
+  bottom:0;
+}
+footer ul{
+
+}
+footer ul li{
+  width:50%;
+  float:left;
+  text-align: center;
+  background: #84ccc9;
+  color:#5c6068;
+}
