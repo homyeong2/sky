@@ -41,7 +41,7 @@ header{
 }
 header div.slideBtn{
   position: absolute;
-  top:50%;
+  top:42%;
   left:3%;
   margin-top: -28px;
   width:25px;
@@ -134,16 +134,30 @@ section div.accordion{
   margin-top: 4%;
   padding: 1% 0;
 }
+
 section div.accordion h4{
   margin:20px 0;
-  font-size:1.25em;
+  font-size:1.5em;
   font-weight: 400;
+  text-align: left;
+  margin-bottom: 40px;
+}
+section div.accordion h4:before{
+  content: '';
+  display: inline-block;
+  width:5px;
+  height:20px;
+  background: #84ccc9;
+  margin: 0 5px;
+  vertical-align: middle;
+  margin-left: 20px;
 }
 section div.accordion div{
-  padding: 2% 0;
+  padding: 2% 20%;
   border:2px solid #aaa;
   margin: 5px;
   position: relative;
+  overflow: hidden;
 }
 section div.accordion div div{
   width:35px;
@@ -161,12 +175,14 @@ section div.accordion div div{
   font-weight: 600;
 }
 section div.accordion div p{
-  font-size:1.25em;
+  font-size:2em;
   color:#272727;
+  float: left;
 }
 section div.accordion div p:nth-child(3){
-  font-size:0.825em;
+  font-size:1.25em;
   margin-top:5px;
+  float: right;
 }
 
 section div.whySky{
@@ -176,7 +192,7 @@ section div.whySky{
 }
 section div.whySky div.whySkyBox{
   width:calc(50% - 0.5%);
-  height: 300px;
+  height: 500px;
   float: left;
   margin-bottom: 1%;
   background: #fff;
@@ -200,7 +216,7 @@ section div.whySky div.whySkyBox div.Number{
   background: #84ccc9;
   color:#fff;
   position: absolute;
-  top:49%;
+  top:51%;
   left:50%;
   margin-left: -20px;
 }
@@ -209,12 +225,12 @@ section div.whySky div.whySkyBox:nth-child(2n-1){
 }
 section div.whySky div.whySkyBox p{
   font-family: NanumSquareB;
-  font-size:1em;
+  font-size:2em;
   margin-top: 16%;
 }
 section div.whySky div.whySkyBox p:nth-child(4){
   font-family: NanumSquare;
-  font-size:0.825em;
+  font-size:1.25em;
   width:85%;
   margin: 0 auto;
   margin-top: 4%;
@@ -236,18 +252,18 @@ section div.tabMenu{
 section div.tabMenu ul.tabs{
     width:100%;
     margin: 0px;
-    padding: 3% 0;
     list-style: none;
     background: #fff;
   }
 section div.tabMenu ul.tabs li{
-
+    padding: 4% 0;
     color: #8e8e8e;
     display: inline-block;
     width:50%;
     float: left;
     text-align: center;
     cursor: pointer;
+    font-size:2em;
   }
 
 section div.tabMenu ul.tabs li.current{
@@ -257,8 +273,9 @@ section div.tabMenu ul.tabs li.current{
 section div.tabMenu .tab-content{
     display: none;
     background: #fff;
-    padding: 2% 0;
-    height: 110px;
+    padding: 5% 0;
+    overflow: hidden;
+
   }
 section div.tabMenu .tab-content.current{
     display: inherit;
@@ -267,16 +284,16 @@ section div.tabMenu .tab-content ul{
   padding: 0 10px;
 }
 section div.tabMenu .tab-content ul li{
-  font-size:0.825em;
+  font-size:1.5em;
   width:75%;
   float: left;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  margin: 3px 0;
+  margin: 1% 0;
 }
 section div.tabMenu .tab-content ul span{
-  font-size:0.825em;
+  font-size:1.5em;
   float:right;
 }
 footer{
