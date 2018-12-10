@@ -30,7 +30,7 @@ li{
   clear: both;
 }
 html{
-  background: #e2e2e2;
+  background: #f3f3f3;
   font-family: NanumSquare;
 }
 body{}
@@ -124,15 +124,19 @@ section div.banner{
 section div.banner div{
   margin: 1% 0;
 }
+section div.banner div a{
+  display: block;
+}
 section div.banner img{
   width:100%;
 }
 section div.accordion{
-  background: #fff;
+  background: #84ccc9;
+
   width:100%;
   text-align: center;
-  margin-top: 4%;
-  padding: 1% 0;
+  margin-top: 5%;
+  padding: 2% 0;
 }
 
 section div.accordion h4{
@@ -147,22 +151,22 @@ section div.accordion h4:before{
   display: inline-block;
   width:5px;
   height:20px;
-  background: #84ccc9;
+  background: #fff;
   margin: 0 5px;
   vertical-align: middle;
   margin-left: 20px;
 }
 section div.accordion div{
   padding: 2% 20%;
-  border:2px solid #aaa;
+  background: #fff;
   margin: 5px;
   position: relative;
   overflow: hidden;
 }
 section div.accordion div div{
-  width:35px;
-  height:35px;
-  line-height: 35px;
+  width:50px;
+  height:50px;
+  line-height: 50px;
   position: absolute;
   padding: 0;
   margin: 0;
@@ -187,12 +191,12 @@ section div.accordion div p:nth-child(3){
 
 section div.whySky{
   width:100%;
-  margin-top: 3%;
+  margin-top: 5%;
   text-align: center;
 }
 section div.whySky div.whySkyBox{
   width:calc(50% - 0.5%);
-  height: 500px;
+  height: 600px;
   float: left;
   margin-bottom: 1%;
   background: #fff;
@@ -246,7 +250,7 @@ section div.whySky div.whySky_03{}
 section div.whySky div.whySky_04{}
 
 section div.tabMenu{
-  margin-top: 3%;
+  margin-top: 5%;
   margin-bottom: 10%;
 }
 section div.tabMenu ul.tabs{
@@ -264,10 +268,13 @@ section div.tabMenu ul.tabs li{
     text-align: center;
     cursor: pointer;
     font-size:2em;
+    background: #eaeaea;
+    transition:all 1s;
   }
 
 section div.tabMenu ul.tabs li.current{
     color: #04080b;
+    background: #fff;
   }
 
 section div.tabMenu .tab-content{
@@ -281,7 +288,7 @@ section div.tabMenu .tab-content.current{
     display: inherit;
   }
 section div.tabMenu .tab-content ul{
-  padding: 0 10px;
+  padding: 0 4%;
 }
 section div.tabMenu .tab-content ul li{
   font-size:1.5em;
