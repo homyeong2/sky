@@ -24,6 +24,29 @@
         $(this).addClass('current');
         $("#"+tab_id).addClass('current');
       });
+
+      $('header div.slideBtn').click(function(){
+        $('body').css('overflow','hidden');
+        $('.leftMenu').addClass('on');
+        $('.mask').addClass('on');
+      });
+      $('.mask').click(function(){
+        $('body').css('overflow','visible');
+        $('.leftMenu').removeClass('on');
+        $('.mask').removeClass('on');
+      });
+      $('.leftMenu .closeBtn').click(function(){
+        $('body').css('overflow','visible');
+        $('.leftMenu').removeClass('on');
+        $('.mask').removeClass('on');
+      });
+      $("#accordian h3").click(function(){
+    		$("#accordian ul ul").slideUp();
+    		if(!$(this).next().is(":visible"))
+    		{
+    			$(this).next().slideDown();
+    		}
+    	})
     });
 
     </script>
@@ -49,6 +72,41 @@
           </ul>
         </div>
       </header>
+      <div class="leftMenu">
+        <div class="login">
+          <p>로그인</p>
+        </div>
+        <div class="closeBtn">
+          <img src="images/close.png" alt="닫기">
+        </div>
+        <div id="accordian">
+        	<ul>
+        		<li>
+        			<h3><span class="icon-dashboard"></span>강남 스카이</h3>
+        			<ul>
+        				<li><a href="#">학원소개</a></li>
+        			</ul>
+        		</li>
+        		<li class="">
+        			<h3><span class="icon-tasks"></span>수강신청</h3>
+        			<ul>
+        				<li><a href="#">온라인 강의</a></li>
+        			</ul>
+        		</li>
+        		<li>
+        			<h3><span class="icon-calendar"></span>커뮤니티</h3>
+        			<ul>
+        				<li><a href="#">신문보도자료</a></li>
+        				<li><a href="#">자료실</a></li>
+        			</ul>
+        		</li>
+        		<li>
+        			<h3><span class="icon-heart"></span>마이페이지</h3>
+        		</li>
+        	</ul>
+        </div>
+      </div>
+      <div class="mask"></div>
       <section>
         <div class="slider">
           <div><img src="images/slider_01.png" alt="배너1"/></div>
