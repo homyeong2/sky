@@ -164,33 +164,19 @@ header div.lnb ul li{
   padding: 2.5% 0;
   border-top: 1px solid #fff;
 }
-
 #accordian h3 span {
 	font-size: 1.5em;
 	margin-right: 10px;
 }
-#accordian li {
-
-}
-
-#accordian ul ul li a {
-	color: white;
-	text-decoration: none;
-	font-size: 1.5em;
-	padding: 0 15px;
-	-webkit-transition: all 0.15s;
-	-moz-transition: all 0.15s;
-	-o-transition: all 0.15s;
-	-ms-transition: all 0.15s;
-	transition: all 0.15s;
-}
 #accordian ul ul li{
   background: #46494f;
-  padding: 2.5% 0;
+  padding: 4.5% 0;
+  font-size:1.5em;
 }
 #accordian ul ul li::before{
   content: '·';
   margin-left: 3%;
+  margin-right: 2%;
 }
 #accordian ul ul {
 	display: none;
@@ -363,16 +349,17 @@ section div.whySky div.whySkyBox div.imgBox img{
   margin-top: -17%;
 }
 section div.whySky div.whySkyBox div.Number{
-  width:40px;
-  height:40px;
-  line-height: 40px;
+  width:80px;
+  height:80px;
+  line-height: 80px;
   border-radius: 50%;
   background: #84ccc9;
   color:#fff;
   position: absolute;
-  top:51%;
+  top:48%;
   left:50%;
-  margin-left: -20px;
+  margin-left: -40px;
+  font-size:2em;
 }
 section div.whySky div.whySkyBox:nth-child(2n){
   margin-right: 1%;
@@ -380,7 +367,7 @@ section div.whySky div.whySkyBox:nth-child(2n){
 section div.whySky div.whySkyBox p{
   font-family: NanumSquareB;
   font-size:2.3em;
-  margin-top: 16%;
+  margin-top: 15%;
 }
 section div.whySky div.whySkyBox p:nth-child(4){
   font-family: NanumSquare;
