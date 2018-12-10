@@ -211,7 +211,7 @@ section div.accordion div p{
   float: left;
 }
 section div.accordion div p:nth-child(3){
-  font-size:1.25em;
+  font-size:1.5em;
   margin-top:5px;
   float: right;
 }
@@ -318,8 +318,41 @@ section div.tabMenu ul.tabs li{
     font-size:2em;
     background: #eaeaea;
     transition:all 1s;
+    text-indent: 6%;
+    position: relative;
   }
-
+  section div.tabMenu ul.tabs li.data{
+    text-indent: 4%;
+  }
+section div.tabMenu ul.tabs li.newspaper::before{
+  content: '';
+  display: block;
+  position: absolute;
+  left:25.5%;
+  height:50px;
+  width:50px;
+  background: url(../images/newspaper_no.png) no-repeat;
+  background-size:100%;
+}
+section div.tabMenu ul.tabs li.data::before{
+  content: '';
+  display: block;
+  position: absolute;
+  left:34.5%;
+  margin-top: -1%;
+  height:50px;
+  width:40px;
+  background: url(../images/memoryCard_no.png) no-repeat;
+  background-size:100%;
+}
+section div.tabMenu ul.tabs li.newspaper.current::before{
+  background: url(../images/newspaper.png) no-repeat;
+  background-size:100%;
+}
+section div.tabMenu ul.tabs li.data.current::before{
+  background: url(../images/memoryCard.png) no-repeat;
+  background-size:100%;
+}
 section div.tabMenu ul.tabs li.current{
     color: #04080b;
     background: #fff;
@@ -367,6 +400,17 @@ footer ul li{
   width:50%;
   float:left;
   text-align: center;
-  background: #84ccc9;
-  color:#5c6068;
+  background: #d2d2d2;
+  color:#404040;
+  padding: 1% 0;
+  font-size:1.5em;
+  font-weight: 600;
+}
+footer ul li.kakao{
+  background: #ababab;
+}
+footer ul li img{
+  width:10%;
+  vertical-align: middle;
+  margin-right: 2%;
 }
