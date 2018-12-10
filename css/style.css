@@ -402,15 +402,15 @@ footer ul li{
   text-align: center;
   background: #d2d2d2;
   color:#404040;
-  padding: 1% 0;
-  font-size:1.5em;
-  font-weight: 600;
+  padding: 2% 0;
+  font-size:1.25em;
+  font-weight: 400;
 }
 footer ul li.kakao{
   background: #ababab;
 }
 footer ul li img{
-  width:10%;
+  width:8%;
   vertical-align: middle;
   margin-right: 2%;
 }
