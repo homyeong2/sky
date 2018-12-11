@@ -500,9 +500,10 @@ div.footer ul li{
 }
 div.footer p{
   padding: 2%;
-  font-size:1.5em;
+  font-size:1.4em;
   text-align: center;
-  line-height: 1.3em;
+  line-height: 1.2em;
+  color:#c7c7c7;
 }
 footer{
   width:100%;
@@ -527,7 +528,7 @@ footer ul li.kakao{
   background: #59908e;
 
 }
-footer ul li.kakao a{
+footer ul li a{
   display: block;
   height:100%;
   color:#fff;
