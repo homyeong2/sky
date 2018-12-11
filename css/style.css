@@ -43,17 +43,17 @@ header{
 }
 header div.slideBtn{
   position: absolute;
-  top:42%;
+  top:35%;
   left:3%;
   margin-top: -28px;
-  width:25px;
+  width:40px;
 }
 header div.slideBtn ul{}
 header div.slideBtn ul li{
   width:100%;
-  height: 4px;
+  height: 7px;
   background: #c1c1c1;
-  margin: 4px 0;
+  margin: 7px 0;
   border-radius: 2px;
 }
 header div.slideBtn ul li:first-child{
@@ -91,7 +91,7 @@ header div.lnb ul li{
   width:25%;
   text-align: center;
   padding: 2% 0;
-  font-size:1em;
+  font-size:1.7em;
   cursor: pointer;
   background: #5c6068;
   color:#fff;
@@ -276,7 +276,7 @@ section div.accordion h4:before{
 section div.accordion div{
   padding: 2% 20%;
   background: #fff;
-  margin:1%;
+  margin:2.5%;
   position: relative;
   overflow: hidden;
 }
@@ -340,13 +340,13 @@ section div.whySky div.whySkyBox{
 }
 section div.whySky div.whySkyBox div.imgBox{
   width:100%;
-  height:55%;
+  height:35%;
   overflow: hidden;
 }
 section div.whySky div.whySkyBox div.imgBox img{
   width:100%;
   vertical-align: bottom;
-  margin-top: -17%;
+  margin-top: -45%;
 }
 section div.whySky div.whySkyBox div.Number{
   width:80px;
@@ -356,7 +356,7 @@ section div.whySky div.whySkyBox div.Number{
   background: #84ccc9;
   color:#fff;
   position: absolute;
-  top:48%;
+  top:28%;
   left:50%;
   margin-left: -40px;
   font-size:2em;
@@ -366,12 +366,12 @@ section div.whySky div.whySkyBox:nth-child(2n){
 }
 section div.whySky div.whySkyBox p{
   font-family: NanumSquareB;
-  font-size:2.3em;
-  margin-top: 15%;
+  font-size:2.5em;
+  margin-top: 20%;
 }
 section div.whySky div.whySkyBox p:nth-child(4){
   font-family: NanumSquare;
-  font-size:1.4em;
+  font-size:2.2em;
   width:85%;
   margin: 0 auto;
   margin-top: 8%;
@@ -489,19 +489,26 @@ footer ul{
 }
 footer ul li{
   width:50%;
+  height:90px;
+  line-height: 90px;
   float:left;
   text-align: center;
-  background: #d2d2d2;
   color:#404040;
-  padding: 2% 0;
-  font-size:1.25em;
+  background: #84ccc9;
+  font-size:2em;
   font-weight: 400;
+  color:#414141;
 }
 footer ul li.kakao{
-  background: #ababab;
+  background: #6bafac;
+  color:#717171;
+}
+footer ul li.kakao a{
+  display: block;
+  height:100%;
 }
 footer ul li img{
-  width:8%;
+  width:10%;
   vertical-align: middle;
   margin-right: 2%;
 }
