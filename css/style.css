@@ -161,7 +161,7 @@ header div.lnb ul li{
 #accordian h3 {
 	font-size: 2em;
   display: block;
-  padding: 2.5% 0;
+  padding: 2.5%;
   border-top: 1px solid #fff;
 }
 #accordian h3 span {
@@ -170,7 +170,7 @@ header div.lnb ul li{
 }
 #accordian ul ul li{
   background: #46494f;
-  padding: 4.5% 0;
+  padding: 4.5%;
   font-size:1.5em;
 }
 #accordian ul ul li::before{
