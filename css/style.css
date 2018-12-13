@@ -46,15 +46,15 @@ header div.slideBtn{
   top:35%;
   left:3%;
   margin-top: -28px;
-  width:40px;
+  width:55px;
 }
 header div.slideBtn ul{}
 header div.slideBtn ul li{
   width:100%;
-  height: 7px;
-  background: #c1c1c1;
-  margin: 7px 0;
-  border-radius: 2px;
+  height: 9px;
+  background: #313131;
+  margin: 10px 0;
+  border-radius: 4px;
 }
 header div.slideBtn ul li:first-child{
   margin-top: 0;
@@ -247,7 +247,7 @@ section div.banner div a{
 section div.banner img{
   width:100%;
 }
-section div.accordion{
+/* section div.accordion{
   background: #5c6068;
   width:100%;
   text-align: center;
@@ -304,7 +304,7 @@ section div.accordion div p:nth-child(3){
   font-size:1.5em;
   margin-top:5px;
   float: right;
-}
+} */
 
 section div.whySky{
   width:100%;
@@ -515,26 +515,34 @@ footer ul{
 }
 footer ul li{
   width:50%;
-  height:90px;
-  line-height: 90px;
+  height:150px;
   float:left;
-  text-align: center;
+  text-align: left;
   color:#fff;
   background: #619f9d;
-  font-size:2em;
+  font-size:2.5em;
   font-weight: 400;
+  padding: 20px;
+  box-sizing: border-box;
 }
 footer ul li.kakao{
   background: #59908e;
 
 }
+footer ul li.kakao img{
+  margin-left: 16%;
+}
+footer ul li.call img{
+  margin-left: 6%;
+}
 footer ul li a{
   display: block;
   height:100%;
   color:#fff;
+  margin-top:2%;
 }
-footer ul li img{
-  width:10%;
-  vertical-align: middle;
+footer ul img{
+  width:24%;
+  float:left;
   margin-right: 2%;
 }
